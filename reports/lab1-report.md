@@ -2,9 +2,9 @@
 
 **Тема:** Розроблення backend архітектури та основного функціоналу
 
-**Виконав:** _[ПІБ студента]_, група _[група]_
+**Виконав:** Стукан Владислав, група _ІПЗ-42_
 
-**Репозиторій:** _[посилання на GitHub]_
+**Репозиторій:** _https://github.com/7804321www/web-lab1_
 
 ---
 
@@ -118,35 +118,33 @@ _[Скріншот: успішне виконання міграції]_
 
 Усі ендпоінти протестовано за допомогою Postman / curl.
 
-_[Скріншот: створення користувача — 201]_
+
 
 ![POST /users](screenshots/02-create-user.png)
 
-_[Скріншот: створення статті з тегами — 201]_
+
 
 ![POST /posts](screenshots/03-create-post.png)
 
-_[Скріншот: список статей з фільтрацією — 200]_
+
 
 ![GET /posts](screenshots/04-list-posts.png)
 
-_[Скріншот: оновлення — 200]_
+
 
 ![PUT /posts/1](screenshots/05-update-post.png)
 
-_[Скріншот: видалення — 204]_
 
 ![DELETE /posts/1](screenshots/06-delete-post.png)
 
-_[Скріншот: помилка валідації — 400]_
 
 ![Validation error](screenshots/07-validation-error.png)
 
-_[Скріншот: неіснуючий запис — 404]_
+
 
 ![Not found](screenshots/08-not-found.png)
 
-_[Скріншот: дублікат email — 409]_
+
 
 ![Conflict](screenshots/09-conflict.png)
 
