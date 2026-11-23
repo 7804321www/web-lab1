@@ -72,9 +72,6 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/blog_db?schema=publi
 npx prisma migrate dev --name init
 ```
 
-_[Скріншот: успішне виконання міграції]_
-
-![Міграція](screenshots/01-migration.png)
 
 ### 4.4. Архітектура застосунку
 
@@ -118,9 +115,6 @@ _[Скріншот: успішне виконання міграції]_
 
 Усі ендпоінти протестовано за допомогою Postman / curl.
 
-
-
-![POST /users](screenshots/02-create-user.png)
 
 
 
